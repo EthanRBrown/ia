@@ -1,13 +1,14 @@
 {
   "name": "ia",
-  "version": "1.0.0",
+  "version": "0.0.1beta",
   "description": "Information Architecture (IA) utilities.",
   "main": "ia.js",
   "scripts": {
     "test": "mocha qa/tests/tests-unit.js"
   },
-  "author": "",
-  "license": "GPL,MIT",
+  "author": "Ethan Brown <ethan.brown@popart.com>",
+  "license": "(GPL-1.0 OR MIT)",
+  "repository": "github:EthanRBrown/ia.git",
   "devDependencies": {
     "expect.js": "^0.3.1",
     "grunt": "^0.4.5",

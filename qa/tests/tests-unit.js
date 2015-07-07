@@ -198,7 +198,6 @@ describe('Node', function() {
 		it("should throw error on name collision", function() {
 			var u = new ia.Universe();
 			var parent = new ia.Node(u);
-			var payload = {};
 			var child = parent.insertChild("child");
 			child.insertSibling("sibling");
 			expect(child.insertSibling.bind(child)).withArgs("sibling").to.throwError();
